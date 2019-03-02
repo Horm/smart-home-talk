@@ -1,5 +1,5 @@
 # Smart Home Talk
-Zdroje pro "live coding demo" v rámci přednášky "Smart Home trochu jinak"... [Link](https://docs.google.com/presentation/d/1UTx008-0oevkyYd32_VD9X9rcYITUUmxR5z1AW7NzI0/edit?usp=sharing)
+Zdroje pro "live coding demo" v rámci přednášky ["Smart Home Trochu jinak"](https://docs.google.com/presentation/d/1UTx008-0oevkyYd32_VD9X9rcYITUUmxR5z1AW7NzI0/edit?usp=sharing)...
 
 ## Home Assistant
 
