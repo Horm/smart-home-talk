@@ -22,7 +22,7 @@ light:
   - platform: demo
 ```
 
-Restartujeme platformu...
+Zkontrolujeme konfiguraci a restartujeme platformu...
 
 ### Teplota, Termostat, Spínání kotle...
 
@@ -31,7 +31,7 @@ Pod `sensor:` přidáme:
   - platform: demo
   - platform: demo
 ```
-Restartujeme platformu...
+Zkontrolujeme konfiguraci a restartujeme platformu...
 
 Vytvoříme průměrnou teplotu. Opět pod `sensor:` přidáme:
 
@@ -43,7 +43,7 @@ Vytvoříme průměrnou teplotu. Opět pod `sensor:` přidáme:
       value_template: >-
         {{ (float(states.sensor.outside_temperature.state) + float(states.sensor.outside_temperature_2.state)) / 2 | round(2) }}
 ```
-Restartujeme platformu...
+Zkontrolujeme konfiguraci a restartujeme platformu...
 
 Zobrazila se vám chyba v konfiguraci? Pokud ano, opravíme a opět restartujeme...
 
@@ -53,7 +53,7 @@ input_boolean:
   heating_enabled:
 ```
 
-Restartujeme platformu...
+Zkontrolujeme konfiguraci a restartujeme platformu...
 
 Přidáme termostat: 
 ```yaml
@@ -70,7 +70,7 @@ climate:
 ```
 Jméno termostatu tvoří pak následně jeho `entity_id`. 
 
-Restartujeme platformu...
+Zkontrolujeme konfiguraci a restartujeme platformu...
 
 ## Skupiny
 
@@ -142,7 +142,7 @@ views:
         
 ```
 
-Restartujeme platformu (a možná budeme muset v nastavení Lovelace aktivovat)...
+Zkontrolujeme konfiguraci a restartujeme platformu (a možná budeme muset v nastavení Lovelace aktivovat)...
 
 ## Automatizace
 
