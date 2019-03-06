@@ -3,7 +3,7 @@ Zdroje pro "live coding demo" v rámci přednášky ["Smart Home Trochu jinak"](
 
 ## Home Assistant
 
-Pokud instalujete na Raspberry Pi, doporučuji jako hassbian image, ale je možný i Docker: 
+Pokud instalujete na Raspberry Pi, doporučuji jako hassbian image, ale je možný i Docker (ten lze nainstalovat podle [tohoto návodu](https://docs.docker.com/install/)): 
 
 ```
 docker run -d --name="home-assistant" -v `pwd`/config:/config -e "TZ=Europe/Prague" -p 8123:8123 homeassistant/home-assistant
